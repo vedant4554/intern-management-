@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Intern Management System</h1>
+        <form id="studentForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="rollno" placeholder="Age" required>
+            <input type="text" id="course" placeholder="Department" required>
+            <input type="number" id="duration" placeholder="Duration (months)" required>
+            <input type="text" id="address" placeholder="Address" required>
+            <input type="tel" id="contact" placeholder="Contact Number" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button type="submit">Add Intern</button>
+        </form>
+        <h2>Intern List</h2>
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Department</th>
+                    <th>Duration</th>
+                    <th>Address</th>
+                    <th>Contact</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
